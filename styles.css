@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+  font-family: "Host Grotesk", sans-serif;
+  /* font-optical-sizing: auto; */
+}
+#sherpa {
+    background-color: #F3F6F9;
+    padding: 50px;
+}
+h2, .side-chick{
+    text-align: center;
+}
+h2 {
+    font-weight: 800;
+}
+
+#sherpa .col-3 {
+    background-color: #fff;
+    padding: 10px;
+    margin: 50px 10px 0;
+    width: 23%;
+    border-radius: 20px;
+}
+.sub-heading, .para {
+    padding: 5px;
+    /* letter-spacing: 1.4px; */
+}
+.sub-heading {
+    margin-top: 10px;
+ font-weight: 700;
+ /* font-size: 20px; */
+}
+img {
+    width: 60px;
+    height: 60px;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+@media screen  and (max-width: 768px){
+    
+}

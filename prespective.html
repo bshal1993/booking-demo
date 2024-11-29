@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prospective Care</title>
+    <script src="https://kit.fontawesome.com/85ab7537a6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <style>
+        .top-bar {
+            background-color: #082a4a;
+            color: #fff;
+        }
+        .fa-regular, .fa-solid, .fa-brands  {
+            color: #fff;
+            margin: 0 5px;
+        }
+        .social {
+            text-decoration: none;
+        }
+        #home {
+          height: 100vh;
+        }
+        .card {
+          height: 100%;
+        }
+        .img {
+          width: 100px;
+        }
+        #services {
+          background-color: #eef2f6;
+          padding-top: 80px;
+          padding-bottom: 80px;
+        }
+        #about-NDIS {
+          padding-top: 40px;
+        }
+        #contact {
+          background-color: #EEF2F6;
+          padding-top: 100px;
+        }
+        .sub-heading {
+          position: relative;
+
+        }
+        .sub-heading:after {
+          content: "";
+          position: absolute;
+          bottom: -30px;
+          left: 0;
+          width: 37px;
+          height: 2px;
+          background-color: #2E82D0;
+        }
+        footer {
+          padding-top: 50px;
+          padding-bottom: 50px;
+          background-color: #082a4a;
+        }
+    </style>
+</head>
+<body>
+  <main>
+          <!-- header  -->
+     <header id="header">
+      <div class="top-bar">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                  <p>
+                    <a class="nav-link" href="mailto:admin@stewartlodge.com.au">
+                    <i class="fa-regular fa-envelope"></i>
+                    admin@stewartlodge.com.au
+                    </a>
+                  </p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                  <p>
+                    <a class="nav-link" href="tel:+61393876942">
+                    <i class="fa-solid fa-phone"></i>
+                    +61 39387 6942
+                    </a>
+                  </p>
+                </div>
+                <div class="col-md-4 col-sm-12"></div>
+                <div class="col-md-2 col-sm-12">
+                  <a class="social" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a class="social" href="https://twitter.com/">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a class="social" href="#">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                  </a>
+                  <a class="social" href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+            </div>    
+          </div>
+        </div>
+        <div class="second-bar">
+          <!-- <nav
+              class="nav justify-content-center  mt-3"
+          >
+            <a href="#">
+              <img class="nav-brand me-5" src="Link.png" alt="logo">
+            </a>
+          
+              <a class="nav-link active" href="#home" aria-current="page"
+                  >Home</a
+              >
+              <a class="nav-link" href="#about_us">About Us</a>
+              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#about_NDIS">About NDIS</a>
+              <a class="nav-link" href="#our-price-and-product">Our Price and Products</a>
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+              <a class="nav-link" href="#referral">Referral</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#contact">Contact</a>
+           </nav> -->
+           <nav
+            class="navbar navbar-expand-md navbar-light bg-light"
+           >
+            <div class="container-md">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="Link.png"
+                  class="img-fluid rounded-top"
+                  alt=""
+                  width="100"
+                  height="40"
+                />
+                
+              </a>
+              <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page"
+                      >Home
+                      <span class="visually-hidden">(current)</span></a
+                    >
+                  </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About NDIS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our price and products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Referrel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+    
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+           </nav>
+           
+          </div>
+        </header>
+      <section id="home">
+        <div class="container-fluid px-0">
+          <div class="card text-bg-dark">
+            <img src="16.png" class="card-img opacity-50" alt="health_care">
+            <div class="card-img-overlay ">
+              <div class="container card-title my-5">
+              <h5 class="card-sm-title fs-1 pb-3 w-50">BEST HOME CARE <br>
+                WITH LOVE</h5>
+              <p class="card-subtitle w-50 mt-4 ">We are a leading disability services provider to the diverse community disregarding the age
+                and any forms of disabilities. Prospective care is a proud provider of support services that
+                include but not limited to constantly supporting individuality and independence of people
+                who have disability. We strive to constantly improve your quality of life through our
+                dedicated and compassionate service deliveries.</p>
+              <!-- <a href="#"> -->
+               <a
+                name="know-more"
+                id=""
+                class="btn btn-primary mt-5"
+                href="#"
+                role="button"
+                >KNOW MORE</a
+               >
+               
+              <!-- </a> -->
+            </div>
+            </div>
+          </div>
+       </div>
+     </section>
+      <section id="about_us">
+            <div class="container pb-5">
+              <div class="row">
+                <div class="col-lg-8 col-sm-6">
+                  <h2>Welcome to Prospective Care</h2>
+                  <p>We deliver the care and assistance to fulfil your requirements to get what you want.
+                    “achieve your goals and meet your needs”</p>
+                    <div class="row">
+                      <div class="col-lg-1 col-3">
+                        <img src="case.png.png" alt="">
+                      </div>
+                      <div class="col-lg-11 col-9">
+                        <h3 class="mb-3">What we offer?</h3>
+                        <p>To enhance the unique personality you have, Prospective Care serve the
+                          holistic care and support to the participants that are with NDIS. We provide
+                          the services that help to ensure all your support needs are met, to enhance
+                          your day-to-day life. We deliver the consistent care, skill development
+                          strategies and community involvement activities to boost the enjoyment in
+                          your life.</p>
+                        </div>
+                          <div class="col-lg-1  col-3">
+                        <img src="case.png.png" alt="">
+                          </div>
+                          <div class="col-lg-11  col-9">
+                            <h3 class="mb-3">What we do?</h3>
+                            <p>We help people with different disabilities to have comfortable and
+                              supportive living through the services of individualized care and by
+                              addressing their unique requirements.</p>
+                          </div>    
+                          <div class="col-lg-1 col-3">
+                        <img src="case.png.png" alt="">
+                          </div>        
+                          <div class="col-lg-11 col-9">
+                            <h3 class="mb-3">Why we stand out? Tell me more.</h3>
+                            <p>We have a 24 -hour service of care and support with highly qualified staff;
+                              an accessible location of residence near the city. We organize various daily
+                              activities to boost your energy and mental health; including arts, gym
+                              sessions and outings. Services include in-home podiatrist, doctors,
+                              physiotherapists, psychologists, occupational therapists and registered
+                              nurses making sure that your physical as well as psychological needs are
+                              met. Social activities include gatherings, cultural integration, movie nights,
+                              and church sessions to address the religious beliefs and practices.</p>
+                          </div>              
+                      </div>
+                    </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                  <img class="img-fluid" src="Figure.png" alt="group-pic">
+                </div>
+              </div>
+            </div>
+      </section>
+      <section id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 offset-sm-2 text-center mb-5">
+              <h2>Our Services</h2>
+              <p>We have 24/7 care and support services with highly qualified staff; an accessible location of
+              residence near the city. We organize various daily activities to boost your energy and mental
+              health; including arts, gym sessions and outings. Below are some of the services that we
+              provide.
+              </p>
+           </div>
+          </div>
+          <div class="row g-3">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card text-bg-primary p-3">
+                <img class="img p-3" src="Symbol.png" alt="Title" />
+                <div class="card-body">
+                  <h4 class="card-title">Independent living
+                    support</h4>
+                  <p class="card-text">We offer a long term living
+                    accommodation and
+                    assistance in either client’s
+                    choice of living place or in
+                    our facilities. We strongly
+                    support you living and
+                    wellbeing in the place you
+                    find most comfortable.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card text-bg-danger p-3">
+                <img class="img p-3" src="Symbol (1).png" alt="Title" />
+                <div class="card-body">
+                  <h4 class="card-title">Respite care</h4>
+                  <p class="card-text">We have short term
+                    (Respite) accommodation
+                    services in our facilities to
+                    support the need of you or
+                    your family. Short term
+                    accommodation assistance
+                    is the care just like in your
+                    home but away from your
+                    home.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card text-bg-success p-3">
+                <img class="img p-3" src="Symbol (2).png" alt="Title" />
+                <div class="card-body">
+                  <h4 class="card-title">Coordinate support
+                    service</h4>
+                  <p class="card-text">We as a NDIS support
+                    provider can coordinate
+                    between the agencies to
+                    offer best possible service
+                    assistance you can have.
+                    We offer and assist you a
+                    long term solution to your
+                    challenges.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card text-bg-dark p-3">
+                <img class="img p-3" src="Symbol (3).png" alt="Title" />
+                <div class="card-body">
+                  <h4 class="card-title">Social participation
+                    support</h4>
+                  <p class="card-text">We provide a network of
+                    support that assist our
+                    participants to get out and
+                    engage in the community
+                    more. We offer you a
+                    confident boost to get more
+                    outdoor and live your life in
+                    a normal way.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card text-bg-secondary p-3">
+                <img class="img p-3" src="Symbol (4).png" alt="Title" />
+                <div class="card-body">
+                  <h4 class="card-title">Religious support</h4>
+                  <p class="card-text">We respect people from all
+                    religious backgrounds and
+                    we aspire to cater for your
+                    needs by taking you to the
+                    places of worship. we
+                    value your religious beliefs
+                    and offer you freedom to
+                    practice them.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card text-bg-warning p-3">
+                <img class="img p-3" src="Symbol (5).png" alt="Title" />
+                <div class="card-body">
+                  <h4 class="card-title">Recreational
+                    activities and
+                    outings</h4>
+                  <p class="card-text">We involve you in
+                    recreational activities. Our
+                    clients love Barbeque
+                    outing, Hiking trips,
+                    Fishing, Swimming,
+                    Movies, attending Footie
+                    games and site seeing.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card text-bg-info p-3">
+                <img class="img p-3" src="Symbol (6).png" alt="Title" />
+                <div class="card-body">
+                  <h4 class="card-title">Transportation</h4>
+                  <p class="card-text">We offer a transport
+                    services to overcome your
+                    transportation challenges.
+                    We keep up with your
+                    entertainment needs by
+                    taking your outing and
+                    involving in recreational
+                    activities.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card text-bg-primary p-3">
+                <img class="img p-3" src="Symbol (7).png" alt="Title" />
+                <div class="card-body">
+                  <h4 class="card-title">Training, Education
+                    and skill
+                    developments</h4>
+                  <p class="card-text">We address your training
+                    needs where you think is
+                    the gap. we strive to
+                    enhance your technological
+                    skill to adopt with
+                    advanced life style.</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-NDIS">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img
+                src="Figure → 16199487141836059941.png.png"
+                class="img-fluid rounded-top"
+                alt="Health-worker"
+              />
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <h2>MISSION VISSION AND <br>
+                VALUES
+              </h2>
+              <p>
+                At Prospective Care we possess following mission, vision and values.
+              </p>
+              <div class="row">
+                <div class="col-1">
+                  <img
+                    src="pseudo.png"
+                    class="img-fluid rounded-top"
+                    alt="heart"
+                  />
+                </div>
+                <div class="col-11">
+                  <p>Our mission:</p>
+                  <p>
+                    As a NDIS service provider, Prospective care’s
+                    mission is to enhance participant’s quality of life by
+                    supporting their individual needs, to provide unique
+                    opportunities by holistic care and to hand the power
+                    to shape their lives in the way they want. Our
+                    mission is to ensure that all your support needs are
+                    met, to enhance your day-to-day life.
+                  </p>
+                </div>
+                <div class="col-1">
+                  <img
+                    src="pseudo.png"
+                    class="img-fluid rounded-top"
+                    alt="heart"
+                  />
+                  
+                </div>
+                <div class="col-11">
+                  <p>Our Vision:</p>
+                  <p>
+                    As a NDIS service provider, Prospective care’s
+                    vision is to create best possible service environment
+                    for the participants and the care staff to generate the
+                    outcomes that includes everyone in Prospective care
+                    family. We aim to achieve this goal by ongoing
+                    training and assessment.
+                  </p>
+                </div>
+                <div class="col-1">
+                  <img
+                    src="pseudo.png"
+                    class="img-fluid rounded-top"
+                    alt="heart"
+                  />
+                </div>
+                <div class="col-11">
+                  <p>Our Values:</p>
+                  <p>
+                    Integration: We possess the quality of being honest
+                    with our clients and having a transparency in our
+                    processes. Collaboration: We work together as not
+                    only as a team in our network but as a family to
+                    support each other’s back. Accountability: We are
+                    responsible for the care and support needs of our
+                    clients. Respect: We respect the diverse community
+                    and acknowledge the forms of disabilities you have.
+                    Enjoyment: We strive to make our environment filled
+                    with fun activities and our culture inclusive of
+                    everyone’s happiness. Therefore, Prospective care
+                    as an organisation we value and always keep in our
+                    mind that iCARE for my client. Come and join our
+                    Prospective Care family, where iCARE for your
+                    betterment through our support network. If you are
+                    an individual with disability and seeking help to
+                    achieve your next goal or looking for assistance to
+                    enhance you daily living Please find the contact us
+                    link below to reach us.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <h2>Have any feedback?</h2>
+              <p>Addressing your feedback and accommodating your unique need are our
+                constant attempt to improve our services. You can help us to know more
+                about your need by filling the feedback form below.
+              </p>
+              <div class="row gy-2">
+                <div class="col-6">
+                  <input type="text" class="form-control" name="Name" placeholder="Name" id="name">
+                </div>
+                <div class="col-6">
+                  <input type="email" class="form-control" name="Name" placeholder="Email"  id="name">
+                </div>
+                <div class="col-12">
+                  <input type="text" name="Name" id="name" placeholder="Subject" class="form-control">
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" name="" id="" rows="3"></textarea>
+                </div>
+              </div>
+              <a
+                name="button"
+                id=""
+                class="btn btn-info text-white mt-3"
+                href="#"
+                role="button"
+                >Send message</a
+              >
+              
+            </div>
+            <div class="col-md-6 col-sm-12 text-end">
+              <img
+                src="Figure → contact-image.png.png"
+                class="img-fluid"
+                alt="lady with a smile"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <img
+                src="prospective-care-logo-light.png.png"
+                class="img-fluid rounded-top mb-2"
+                alt=""
+              />
+              <p class="text-white">
+                Prospective care is a proud provider of support services
+                that include but not limited to constantly supporting
+                individuality and independence of people who have
+                disability. We strive to constantly improve your quality of
+                life through our dedicated and compassionate service
+                deliveries.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <h2 class="sub-heading text-white">CONTACT</h2>
+              <div class="mt-5">
+                <a class="text-decoration-none text-white" href="https://www.google.com/maps/place/85+Stewart+St,+Brunswick+VIC+3056,+Australia/@-37.7640364,144.9668634,655m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6ad6435129d75067:0xe4cc31bcb86d381e!8m2!3d-37.7640364!4d144.9694383!16s%2Fg%2F11cs8jpp13?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D">
+                <img class="me-3" src="9.png" alt="location">
+                85 Stewart St, Brunswick VIC 3056 Australia
+                </a>
+             </div>
+             <div class="mt-2">
+              <a class="text-decoration-none text-white" href="tel:+61 39387 6942">
+              <img class="me-3" src="10.png" alt="location">
+              +61 39387 6942
+              </a>
+              </div>
+              <div class="mt-2">
+              <a class="text-decoration-none text-white" href="mailto:admin@stewartlodge.com.au">
+              <img class="me-3" src="11.png" alt="location">
+              admin@stewartlodge.com.au
+              </a>
+            </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <h2 class="sub-heading text-white">FOLLOW US</h2>
+              <div class="mt-5">
+                <a class="social mx-3 " href="https://www.facebook.com/">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="social mx-3" href="https://twitter.com/">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a class="social mx-3" href="#">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+                <a class="social mx-3" href="https://www.instagram.com/">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
